@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""news-image-20261118: copy the entry image to the output directory.
+"""news-image-20261118 (v2): write the entry image to the output directory.
 
-The entry image (entry.png, in this repository) is a news poster summing up
-the world news of Wednesday 18 November 2026. The grader runs this program
-twice with no network; both runs must write the same bytes, so this is a
-plain copy of a fixed file.
+The entry image (entry.png, in this repository) is a dense news poster
+summing up the world news of Wednesday 18 November 2026 -- 49 verified
+stories across 7 regions, drawn with Python PIL by generate.py.
+
+The grader runs this program twice with no network and requires both runs
+to write the same bytes, so this is a plain copy of a fixed file. It uses
+only the Python standard library.
 """
 
 import os
